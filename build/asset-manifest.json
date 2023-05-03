@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.117c60fe.css",
+    "main.js": "/static/js/main.e5e8767b.js",
+    "static/media/22.jpeg": "/static/media/22.216881096a493d667ba8.jpeg",
+    "static/media/2491124.jpg": "/static/media/2491124.f01936705086472e389e.jpg",
+    "static/media/kitchen.jpg": "/static/media/kitchen.6ed5d15d3c8443ff69ba.jpg",
+    "static/media/mainLogo2.png": "/static/media/mainLogo2.15f2d311c9ceb95c2951.png",
+    "static/media/mainLogo.png": "/static/media/mainLogo.7c5ed910e730524a799c.png",
+    "static/media/office-icon.svg": "/static/media/office-icon.40fe4feffef992a541634e0470c61c08.svg",
+    "static/media/heater.svg": "/static/media/heater.90280f018b0a08272056acbf6e8d687a.svg",
+    "static/media/drain.svg": "/static/media/drain.c0f9c929d4d57c5e5eced2af0079a411.svg",
+    "static/media/siren-icon.svg": "/static/media/siren-icon.d7a87d5f8bc731ca883c6298b2246e21.svg",
+    "static/media/water.svg": "/static/media/water.907b10755934485e4b95bbb1592459f6.svg",
+    "index.html": "/index.html",
+    "static/media/leak.svg": "/static/media/leak.fe07c0ad9b1edc474fef9d07785e4c77.svg",
+    "main.117c60fe.css.map": "/static/css/main.117c60fe.css.map",
+    "main.e5e8767b.js.map": "/static/js/main.e5e8767b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.117c60fe.css",
+    "static/js/main.e5e8767b.js"
+  ]
+}
