@@ -1,0 +1,79 @@
+.container {
+    height: 170px;
+    display: flex;
+
+    .leftLogo {
+        flex: 1.6;
+        display: flex;
+        justify-content: flex-end;
+        padding: 20px;
+        margin-right: 60px;
+        box-sizing: border-box;
+        img {
+            margin-right: 5%;
+        }
+    }
+    .rightNavigation {
+        flex: 4;
+
+        .navTop {
+            background-color: #153250;
+            height: 40%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 10%;
+            gap: 3%;
+            a {
+                color: white;
+            }
+            .topLink:hover {
+                transition: ease-in-out 0.3s;
+                color: #60a9a3;
+            }
+            .phone a {
+                font-size: 36px;
+                letter-spacing: 0.04em;
+                font-family: "DM Serif Display", serif;
+            }
+        }
+        .navBottom {
+            height: 60%;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding-right: 10%;
+            .bottomLink {
+                color: black;
+                &:hover {
+                    transition: ease-in-out 0.3s;
+                    color: #60a9a3;
+                }
+            }
+            .request {
+                width: 240px;
+                height: 80%;
+                background-color: #add3d0;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                cursor: pointer;
+                a {
+                    color: #153250;
+                    font-family: "DM Serif Display", serif;
+                    letter-spacing: 1px;
+                    font-weight: 600;
+                }
+                &:hover {
+                    transition: 0.3s;
+                    background-color: #153250;
+                    a {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}

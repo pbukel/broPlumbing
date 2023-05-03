@@ -1,0 +1,51 @@
+.bigImageContainer {
+    min-height: 630px;
+    display: flex;
+    border-top: solid 10px #970c10;
+    border-bottom: solid 10px #970c10;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        object-fit: cover;
+        z-index: -2;
+        // opacity: 0.5;
+    }
+    .bg-image {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: #153250;
+        z-index: -1;
+        opacity: 0.95;
+    }
+
+    .imageInfo {
+        width: 55%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        h2 {
+            font-family: "DM Serif Display", serif;
+            font-size: 3.333rem;
+            letter-spacing: -0.03em;
+            line-height: 1.24;
+            font-weight: 400;
+            text-transform: none;
+            word-break: break-word;
+            text-align: center;
+            color: #add3d0;
+        }
+        p {
+            font-family: "Poppins", sans-serif;
+            line-height: 1.8;
+            text-align: center;
+            color: white;
+        }
+    }
+}

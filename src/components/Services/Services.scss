@@ -1,0 +1,84 @@
+.servicesContainer {
+    display: flex;
+    min-height: 580px;
+    height: fit-content;
+    padding: 0 5% 5% 5%;
+    gap: 3%;
+    .leftIcons {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 4%;
+        .singleIcon {
+            height: 250px;
+            width: 200px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            margin-bottom: 5%;
+
+            .redIcon {
+                position: absolute;
+                background-color: #970c10;
+                height: 45%;
+                width: 55%;
+                z-index: 2;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                svg {
+                    height: 60%;
+                    fill: white;
+                    background: transparent;
+                }
+            }
+            .singleIconDesc {
+                position: absolute;
+                background-color: #60a9a390;
+                height: 70%;
+                width: 100%;
+                bottom: 0;
+                p {
+                    background: transparent;
+                    margin: auto;
+                    width: 80%;
+                    text-align: center;
+                    position: relative;
+                    font-family: "DM Serif Display", serif;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    font-weight: 300;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+    .rightDesc {
+        width: 45%;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h1 {
+            color: #153250;
+            font-family: "DM Serif Display", serif;
+            font-size: 3.333rem;
+            letter-spacing: -0.03em;
+            line-height: 1.24;
+            font-weight: 400;
+            text-transform: none;
+            word-break: break-word;
+        }
+        .rightDescContent p {
+            font-family: "Poppins", sans-serif;
+            line-height: 1.8;
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+    }
+}
